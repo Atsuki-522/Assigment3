@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <div>
+      <h2 style="background-color: aqua; size: 200px">Soft tennis</h2>
+      <p style="background-color: aquamarine">Atsuki yamamori</p>
+    </div>
+    <style>
+      section {
+        border: 1px solid lightgray;
+        padding: 20px;
+        margin-bottom: 20px;
+        position: relative;
+      }
+
+      section h1 {
+        position: absolute;
+        top: -20px;
+        left: 20px;
+        background-color: white;
+        padding-right: 10px;
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      section:first-of-type {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding-top: 40px;
+      }
+
+      section:first-of-type img {
+        width: 150px;
+        height: auto;
+        margin-right: 20px;
+      }
+
+      section:nth-of-type(2) {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        padding-top: 40px;
+      }
+
+      section:nth-of-type(2) img {
+        width: 150px;
+        height: auto;
+        margin-left: 20px;
+      }
+
+      section:nth-of-type(3) {
+        text-align: left;
+        padding-top: 40px;
+      }
+
+      section:nth-of-type(3) .images-container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+      }
+
+      section:nth-of-type(3) img {
+        width: 150px;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(196, 255, 242)">
+    <section>
+      <h1>What is the softtennis?</h1>
+      <p>
+        Soft Tennis is a ball game that originated in modern tennis and
+        developed in the very early stages, in which players play 2-on-2 (4
+        players) or 1-on-1 (2 players) against each other with a hollow, soft
+        rubber ball and a racket over a net. The game originated in Japan and is
+        played mainly in East Asia, but in recent years tournaments are also
+        regularly held in Eastern Europe.
+      </p>
+      <img src="img_kids01.jpg" />
+    </section>
+
+    <section>
+      <h1>My experience in soft tennis</h1>
+      <p>
+        I discovered soft tennis when I was in junior high school. The reason
+        for my encounter was a club activity at school. I had always liked
+        tennis, but I did not know about soft tennis. I started playing soft
+        tennis as a club activity, and I fell in love with the sport and was
+        selected as a regular member of the school team.
+      </p>
+      <img src="images2.jpeg" />
+    </section>
+    <section>
+      <h1>Difference between soft tennis and tennis, I feel.</h1>
+      <p>
+        I like both tennis and soft tennis, and although they are the same, the
+        two sports are quite different. First, the speed of the ball hit is
+        different. This is caused by the difference in the balls, but the tennis
+        ball is faster and bounces better. Soft tennis is not as fast and does
+        not bounce as much. These differences change the strategy for scoring
+        points and the way the ball is hit. I prefer soft tennis because I can
+        hit the ball as hard as I can.
+      </p>
+      <div class="images-container">
+        <div class="image-item">
+          <img src="images.jpeg" alt="soft Ball" />
+          <div class="caption">Soft Tennis Ball</div>
+        </div>
+        <div class="image-item">
+          <img src="ダウンロード.jpeg" alt="Tennis Ball" />
+          <div class="caption">Tennis Ball</div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
